@@ -1,0 +1,255 @@
+* {
+  color: white;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: rgb(11, 15, 65);
+  padding-inline: 10px;
+  padding-block: 25px;
+}
+
+.stone {
+  background-color: rgb(66, 63, 63);
+  border-radius: 16px;
+  padding-inline: 10px;
+  padding-block: 7px;
+  margin-bottom: 34px;
+}
+
+.burger {
+  display: flex;
+  justify-content: space-between;
+}
+
+.listbar {
+  margin-bottom: 15px;
+}
+
+#cursor {
+  cursor: pointer;
+}
+
+.kite {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.kite,
+h2 {
+  margin: 0;
+}
+
+.camp {
+  font-size: 32px;
+}
+
+.kiss {
+  color: tomato;
+}
+
+.kiss2 {
+  color: rgb(11, 15, 65);
+  font-size: 36px;
+}
+
+.nike {
+  display: flex;
+  align-items: center;
+  padding: 11px;
+  background-color: rgb(116, 122, 128);
+  border-radius: 8px;
+}
+
+.one {
+  font-size: 22px;
+}
+
+.two {
+  font-size: 26px;
+}
+
+.three {
+  font-size: 20px;
+}
+
+/* .four {
+  margin-top: 10px;
+} */
+
+.boot1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.boot {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.bath {
+  border-radius: 15px;
+  background-color: rgb(240, 88, 88);
+  padding-inline: 10px;
+  padding-block: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.bath1 {
+  border-radius: 15px;
+  background-color: grey;
+  padding-inline: 8px;
+  padding-block: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.nike1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.got {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 8px;
+}
+
+.fiber {
+  border-radius: 15px;
+  background-color: rgb(66, 63, 63);
+  border: 1px solid rgb(148, 129, 129);
+  padding: 16px;
+}
+
+#lens {
+  display: flex;
+  gap: 10px;
+}
+
+#leke h1,
+p {
+  margin: 0;
+}
+
+.hoe1 {
+  display: flex;
+  align-items: center;
+  padding-inline: 8px;
+  background-color: rgb(187, 209, 153);
+  border-radius: 12px;
+}
+
+.hoe2 {
+  display: flex;
+  align-items: center;
+  padding-inline: 8px;
+  background-color: #bde0fe;
+  border-radius: 12px;
+}
+
+.hoe3 {
+  display: flex;
+  align-items: center;
+  padding-inline: 8px;
+  background-color: #ffe5ec;
+  border-radius: 12px;
+}
+
+.hoe4 {
+  display: flex;
+  align-items: center;
+  padding-inline: 8px;
+  background-color: #ffc8dd;
+  border-radius: 12px;
+}
+
+.hoe5 {
+  display: flex;
+  align-items: center;
+  padding-inline: 8px;
+  background-color: #cdb4db;
+  border-radius: 12px;
+}
+
+.hoe6 {
+  display: flex;
+  align-items: center;
+  padding-inline: 8px;
+  background-color: #bde0fe;
+  border-radius: 12px;
+}
+
+.hoe7 {
+  display: flex;
+  align-items: center;
+  padding-inline: 8px;
+  background-color: #a2d2ff;
+  border-radius: 12px;
+}
+
+.hoe8 {
+  display: flex;
+  align-items: center;
+  padding-inline: 8px;
+  background-color: #b8c0ff;
+  border-radius: 12px;
+}
+
+.hoe9 {
+  display: flex;
+  align-items: center;
+  padding-inline: 8px;
+  background-color: #68d8d6;
+  border-radius: 12px;
+}
+
+.hoe10 {
+  display: flex;
+  align-items: center;
+  padding-inline: 8px;
+  background-color: #ffcdb2;
+  border-radius: 12px;
+}
+
+.hoe11 {
+  display: flex;
+  align-items: center;
+  padding-inline: 8px;
+  background-color: #9ceaef;
+  border-radius: 12px;
+}
+
+.hoe12 {
+  display: flex;
+  align-items: center;
+  padding-inline: 8px;
+  background-color: #99e2b4;
+  border-radius: 12px;
+}
+
+.fikayo {
+  border-radius: 12px;
+  background-color: rgb(65, 63, 63);
+  border: 1px solid rgb(148, 129, 129);
+  padding-inline: 6px;
+  padding-block: 6px;
+}
+
+.faleye {
+  align-items: center;
+}
+
+.muyiwa {
+  color: orangered;
+  font-size: 30px;
+}
+
+.bolu {
+  font-size: 30px;
+}
