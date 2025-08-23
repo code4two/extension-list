@@ -92,7 +92,7 @@ h2 {
 
 .bath {
   border-radius: 15px;
-  background-color: rgb(240, 88, 88);
+  background-color: rgb(221, 98, 85);
   padding-inline: 10px;
   padding-block: 8px;
   border: none;
@@ -265,7 +265,7 @@ p {
   }
 
   .listbar {
-    margin-bottom: 26px;
+    margin-bottom: 32px;
     margin-top: 22px;
   }
 
@@ -295,11 +295,11 @@ p {
     font-size: 18px;
   }
   .one {
-    font-size: 26px;
+    font-size: 23px;
   }
 
   .two {
-    font-size: 45px;
+    font-size: 38px;
   }
 
   .camp {
