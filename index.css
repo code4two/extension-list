@@ -33,7 +33,7 @@ body {
 .kite {
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 6px;
 }
 
 .kite,
@@ -42,7 +42,7 @@ h2 {
 }
 
 .camp {
-  font-size: 32px;
+  font-size: 2rem;
 }
 
 .kiss {
@@ -110,7 +110,6 @@ h2 {
 
 .nike1 {
   display: flex;
-  align-items: center;
   gap: 10px;
 }
 
@@ -254,23 +253,56 @@ p {
   font-size: 30px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 640px) {
+  body {
+    padding-inline: 10px;
+    padding-block: 24px;
+  }
+
   .stone {
     border-radius: 10px;
     margin-bottom: 0px;
   }
 
+  .listbar {
+    margin-bottom: 26px;
+    margin-top: 22px;
+  }
+
   .boot1 {
     display: flex;
     flex-direction: column;
+    align-items: center;
   }
 
+  .boot1,
+  h1 {
+    margin: 0;
+  }
+
+  .nike1 {
+    display: flex;
+    align-self: flex-end;
+    padding-top: 14px;
+    gap: 1em;
+  }
+
+  .bath {
+    font-size: 18px;
+  }
+
+  .bath1 {
+    font-size: 18px;
+  }
   .one {
     font-size: 26px;
   }
 
   .two {
-    justify-content: center;
-    font-size: 3rem;
+    font-size: 45px;
+  }
+
+  .camp {
+    font-size: 34px;
   }
 }
