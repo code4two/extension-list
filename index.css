@@ -4,13 +4,13 @@
 }
 
 body {
-  background-color: rgb(11, 15, 65);
+  background-color: rgb(11, 14, 56);
   padding-inline: 10px;
   padding-block: 25px;
 }
 
 .stone {
-  background-color: rgb(66, 63, 63);
+  background-color: rgb(48, 58, 66);
   border-radius: 16px;
   padding-inline: 10px;
   padding-block: 7px;
@@ -101,9 +101,9 @@ h2 {
 
 .bath1 {
   border-radius: 15px;
-  background-color: grey;
-  padding-inline: 8px;
-  padding-block: 10px;
+  background-color: rgb(116, 122, 128);
+  padding-inline: 10px;
+  padding-block: 8px;
   border: none;
   cursor: pointer;
 }
@@ -122,8 +122,8 @@ h2 {
 
 .fiber {
   border-radius: 15px;
-  background-color: rgb(66, 63, 63);
-  border: 1px solid rgb(148, 129, 129);
+  background-color: rgb(48, 58, 66);
+  border: 1px solid rgb(115, 125, 133);
   padding: 16px;
 }
 
@@ -235,9 +235,9 @@ p {
 
 .fikayo {
   border-radius: 12px;
-  background-color: rgb(65, 63, 63);
-  border: 1px solid rgb(148, 129, 129);
-  padding-inline: 6px;
+  background-color: rgb(48, 58, 66);
+  border: 1px solid rgb(115, 125, 133);
+  padding-inline: 8px;
   padding-block: 6px;
 }
 
