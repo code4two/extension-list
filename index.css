@@ -10,7 +10,7 @@ body {
 }
 
 .stone {
-  background-color: rgb(48, 58, 66);
+  background-color: rgb(36, 47, 64);
   border-radius: 16px;
   padding-inline: 10px;
   padding-block: 7px;
@@ -58,7 +58,7 @@ h2 {
   display: flex;
   align-items: center;
   padding: 11px;
-  background-color: rgb(116, 122, 128);
+  background-color: rgb(64, 76, 88);
   border-radius: 8px;
 }
 
@@ -101,7 +101,8 @@ h2 {
 
 .bath1 {
   border-radius: 15px;
-  background-color: rgb(116, 122, 128);
+  background-color: rgb(64, 76, 88);
+  border: 1px solid rgb(115, 125, 133);
   padding-inline: 10px;
   padding-block: 8px;
   border: none;
@@ -121,7 +122,7 @@ h2 {
 
 .fiber {
   border-radius: 15px;
-  background-color: rgb(48, 58, 66);
+  background-color: rgb(36, 47, 64);
   border: 1px solid rgb(115, 125, 133);
   padding: 16px;
 }
