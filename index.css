@@ -253,3 +253,24 @@ p {
 .bolu {
   font-size: 30px;
 }
+
+@media (max-width: 600px) {
+  .stone {
+    border-radius: 10px;
+    margin-bottom: 0px;
+  }
+
+  .boot1 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .one {
+    font-size: 26px;
+  }
+
+  .two {
+    justify-content: center;
+    font-size: 3rem;
+  }
+}
