@@ -1,4 +1,4 @@
-# 📦 Extension List
+# 📦 Browser Extension Manager
 
 A simple frontend project built with **vanilla JavaScript, HTML, and CSS** to improve my core frontend skills.  
 This project focuses on building a **responsive grid layout** and managing extensions with interactive features.
