@@ -1,9 +1,5 @@
 let mopo = document.querySelector(".nike");
 
-// classes with nodelist yet to be assigned tasks
-let cardBg = document.querySelectorAll(".fiber"); // Returns nodelist for all 12 fiber classes that represent the card
-let removeButton = document.querySelectorAll(".fikayo"); // Returns nodelist for all 12 fikayo classes that represent the remove button
-
 mopo.addEventListener("click", () => {
   console.log("You are beautiful!!!!");
 
@@ -21,11 +17,26 @@ mopo.addEventListener("click", () => {
     inactive[0].style.backgroundColor = "#fff"; // Changes the button bg colo to white
     inactive[1].style.backgroundColor = "#fff"; // Changes the button bg colo to white
 
-    //CONVERT THE NODELIST TO FOREACH INSTEAD
-    cardBg[2].style.backgroundColor = "#fff"; // Changes all card background color in the nodelist to white
-    cardBg[2].style.border = "none"; // Removes the card border
-    removeButton[0].style.backgroundColor = "#fff"; // Changes the button bg colo to white
-    removeButton[4].style.backgroundColor = "#fff"; // Changes the button bg colo to white
+    //USING FOR LOOP
+    let cardBg = document.querySelectorAll(".fiber"); // Returns nodelist for all 12 fiber classes that represent the card
+
+    //USING FOR LOOP TO CONVERT ALL CARD BG TO WHITE
+    for (let i = 0; i < cardBg.length; i++) {
+      cardBg[i].style.backgroundColor = "#fff"; // Changes all card background color in the nodelist to white
+    }
+
+    //USING FOR LOOP TO  CONVERT ALL CARD BORDER TO NONE
+    for (let j = 0; j < cardBg.length; j++) {
+      cardBg[j].style.border = "none"; // Changes all card background color in the nodelist to white
+    }
+
+    //USING FOR EACH
+    let removeButton = document.querySelectorAll(".fikayo"); // Returns nodelist for all 12 fikayo classes that represent the remove button
+
+    //USING FOR EACH TO CONVERT ALL REMOVE BUTTON BG TO WHITE
+    removeButton.forEach((element) => {
+      element.style.backgroundColor = "#fff";
+    });
   }
 
   LightTheme();
