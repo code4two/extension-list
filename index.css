@@ -306,4 +306,12 @@ p {
   .camp {
     font-size: 34px;
   }
+
+  .got {
+    gap: 11px;
+  }
+
+  .fiber {
+    padding: 18px;
+  }
 }
