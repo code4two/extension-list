@@ -3,6 +3,22 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* .stone {
+    background-color: white;
+  }
+
+  .nike {
+    background-color: white;
+  }
+
+  .fiber {
+    background-color: white;
+  }
+
+  body {
+    background-color: #E3F2FD;
+  } */
+
 a {
   text-decoration: none;
 }
@@ -59,6 +75,7 @@ h2 {
   padding: 11px;
   background-color: rgb(64, 76, 88);
   border-radius: 8px;
+  cursor: pointer;
 }
 
 .one {
