@@ -3,6 +3,10 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   background-color: rgb(11, 14, 56);
   padding-inline: 10px;
@@ -106,6 +110,9 @@ h2 {
 
 .nike1 {
   display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
   gap: 10px;
 }
 
