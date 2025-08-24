@@ -74,9 +74,9 @@ h2 {
   font-size: 20px;
 }
 
-/* .four {
-  margin-top: 10px;
-} */
+.four {
+  margin-top: 5px;
+}
 
 .boot1 {
   display: flex;
@@ -129,7 +129,7 @@ h2 {
 
 #lens {
   display: flex;
-  gap: 10px;
+  gap: 14px;
 }
 
 #leke h1,
@@ -234,14 +234,15 @@ p {
 }
 
 .fikayo {
-  border-radius: 12px;
-  background-color: rgb(48, 58, 66);
+  border-radius: 16px;
+  background-color: rgb(36, 47, 64);
   border: 1px solid rgb(115, 125, 133);
-  padding-inline: 8px;
-  padding-block: 6px;
+  padding-inline: 11px;
+  padding-block: 8px;
 }
 
 .faleye {
+  display: flex;
   align-items: center;
 }
 
@@ -313,5 +314,23 @@ p {
 
   .fiber {
     padding: 18px;
+  }
+
+  .four {
+    font-size: 1.2rem;
+  }
+
+  .three {
+    font-size: 1.4rem;
+  }
+
+  .fikayo {
+    font-size: 1.1rem;
+    border-radius: 20px;
+    padding-inline: 16px;
+  }
+
+  .muyiwa {
+    font-size: 34px;
   }
 }
