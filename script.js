@@ -15,8 +15,8 @@ mopo.addEventListener("click", () => {
 
     bodyBg.style.color = "#000"; // Changes the body tag text color to black
     bodyBg.style.backgroundColor = "#E3F2FD"; // Changes the body tag background color to lightblue
-    cardBg[1].style.backgroundColor = "#fff"; // Changes all card background color in the nodelist to white
-    cardBg[1].style.border = "none"; // Removes the card border
+    cardBg[3].style.backgroundColor = "#fff"; // Changes all card background color in the nodelist to white
+    cardBg[3].style.border = "none"; // Removes the card border
     extensionBar.style.backgroundColor = "#fff"; // Changes the extension bar bg color to white
     mopo.style.backgroundColor = "#D3D3D3"; // Changes the themebar bg color to white
   }
