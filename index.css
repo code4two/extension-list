@@ -49,11 +49,6 @@ h2 {
   color: tomato;
 }
 
-.kiss2 {
-  color: rgb(11, 15, 65);
-  font-size: 36px;
-}
-
 .nike {
   display: flex;
   align-items: center;
@@ -87,7 +82,7 @@ h2 {
 .boot {
   display: flex;
   justify-content: space-between;
-  margin-top: 30px;
+  margin-top: 38px;
 }
 
 .bath {
@@ -129,6 +124,7 @@ h2 {
 
 #lens {
   display: flex;
+  align-items: center;
   gap: 14px;
 }
 
@@ -137,100 +133,129 @@ p {
   margin: 0;
 }
 
+.kiss2 {
+  color: rgb(11, 15, 65);
+  font-size: 34px;
+}
+
 .hoe1 {
   display: flex;
   align-items: center;
-  padding-inline: 8px;
+  align-self: start;
+  padding-inline: 12px;
+  padding-block: 16px;
   background-color: rgb(187, 209, 153);
-  border-radius: 12px;
+  border-radius: 13px;
 }
 
 .hoe2 {
   display: flex;
   align-items: center;
-  padding-inline: 8px;
+  align-self: start;
+  padding-inline: 12px;
+  padding-block: 16px;
   background-color: #bde0fe;
-  border-radius: 12px;
+  border-radius: 13px;
 }
 
 .hoe3 {
   display: flex;
   align-items: center;
-  padding-inline: 8px;
+  align-self: start;
+  padding-inline: 12px;
+  padding-block: 16px;
   background-color: #ffe5ec;
-  border-radius: 12px;
+  border-radius: 13px;
 }
 
 .hoe4 {
   display: flex;
   align-items: center;
-  padding-inline: 8px;
+  align-self: start;
+  padding-inline: 12px;
+  padding-block: 16px;
   background-color: #ffc8dd;
-  border-radius: 12px;
+  border-radius: 13px;
 }
 
 .hoe5 {
   display: flex;
   align-items: center;
-  padding-inline: 8px;
+  align-self: start;
+  padding-inline: 12px;
+  padding-block: 16px;
   background-color: #cdb4db;
-  border-radius: 12px;
+  border-radius: 13px;
 }
 
 .hoe6 {
   display: flex;
   align-items: center;
-  padding-inline: 8px;
+  align-self: start;
+  padding-inline: 12px;
+  padding-block: 16px;
   background-color: #bde0fe;
-  border-radius: 12px;
+  border-radius: 13px;
 }
 
 .hoe7 {
   display: flex;
   align-items: center;
-  padding-inline: 8px;
+  align-self: start;
+  padding-inline: 12px;
+  padding-block: 16px;
   background-color: #a2d2ff;
-  border-radius: 12px;
+  border-radius: 13px;
 }
 
 .hoe8 {
   display: flex;
   align-items: center;
-  padding-inline: 8px;
+  align-self: start;
+  padding-inline: 12px;
+  padding-block: 16px;
   background-color: #b8c0ff;
-  border-radius: 12px;
+  border-radius: 13px;
 }
 
 .hoe9 {
   display: flex;
   align-items: center;
-  padding-inline: 8px;
+  align-self: start;
+  padding-inline: 12px;
+  padding-block: 16px;
   background-color: #68d8d6;
-  border-radius: 12px;
+  border-radius: 13px;
 }
 
 .hoe10 {
   display: flex;
   align-items: center;
-  padding-inline: 8px;
+  align-self: start;
+  padding-inline: 12px;
+  padding-block: 16px;
   background-color: #ffcdb2;
-  border-radius: 12px;
+  border-radius: 13px;
 }
 
 .hoe11 {
   display: flex;
   align-items: center;
-  padding-inline: 8px;
+  align-self: start;
+  padding-inline: 12px;
+  padding-block: 16px;
   background-color: #9ceaef;
-  border-radius: 12px;
+  border-radius: 13px;
 }
 
 .hoe12 {
   display: flex;
   align-items: center;
-  padding-inline: 8px;
+  align-self: start;
+  padding-inline: 12px;
+  padding-block: 16px;
   background-color: #99e2b4;
-  border-radius: 12px;
+  border-radius: 13px;
 }
 
 .fikayo {
