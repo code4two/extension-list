@@ -26,8 +26,8 @@ mopo.addEventListener("click", () => {
     }
 
     //USING FOR LOOP TO  CONVERT ALL CARD BORDER TO NONE
-    for (let j = 0; j < cardBg.length; j++) {
-      cardBg[j].style.border = "none"; // Changes all card background color in the nodelist to white
+    for (let k = 0; k < cardBg.length; k++) {
+      cardBg[k].style.border = "none"; // Changes all card background color in the nodelist to white
     }
 
     //USING FOR EACH
