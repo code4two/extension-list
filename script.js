@@ -1,5 +1,4 @@
 let mopo = document.querySelector(".nike");
-let cardBg = document.querySelectorAll(".fiber"); // Returns nodelist for all 12 fiber classes that represent the card
 
 mopo.addEventListener("click", () => {
   console.log("You are beautiful!!!!");
@@ -43,8 +42,22 @@ mopo.addEventListener("click", () => {
   LightTheme();
 });
 
+// CODE REQUIRED TO SETUP ALL COUNTER
+let cardBg = document.querySelectorAll(".fiber"); // Returns nodelist for all 12 fiber classes that represent the card
 let reels = cardBg.length;
 let pick = document.querySelector(".bath");
 pick.innerHTML = `All (${reels})`;
 
+// CODE REQUIRED TO SETUP ACTIVE COUNTER
+let activeIcon = document.querySelectorAll(".muyiwa"); // Returns nodelist for all muyiwa classes that represent the remove button
+let inActiveIcon = document.querySelectorAll(".bolu"); // Returns nodelist for all bolu classes that represent the remove button
+
+let insta = cardBg.length - inActiveIcon.length;
 let prick = document.querySelectorAll(".bath12");
+prick.innerHTML = `Active (${insta})`;
+
+// CODE REQUIRE TO SETUP INACTIVE  COUNTER
+
+let snap = cardBg.length - activeIcon.length;
+let pink = document.querySelectorAll(".bath13");
+pink.innerHTML = `Inactive (${snap})`;
