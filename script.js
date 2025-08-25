@@ -60,11 +60,7 @@ allButton.innerHTML = `All (${totalCount})`;
 inActiveButton[0].innerHTML = `Active (${activeCount})`;
 inActiveButton[1].innerHTML = `Inactive (${inActiveCount})`;
 
-//USING FOR EACH TO DISPLAY RESPECTIVE CARDS INTO THEIR RESPECTIVE PAGES
-// bothIcons.forEach((element) => {
-//   element.style.display = "block";
-// });
-
+// HOW TO FILTER PARENT DIV OF TWO CHILDREN INTO SEPARATE VARIABLES
 let totalCard = document.querySelectorAll(".fiber"); // Returns nodelist for all 12 fiber classes that represent the card
 let activeCard = Array.from(totalCard).filter((el) =>
   el.querySelector(".muyiwa")
