@@ -44,8 +44,7 @@ mopo.addEventListener("click", () => {
 });
 
 let reels = cardBg.length;
+let pick = document.querySelector(".bath");
+pick.innerHTML = `All (${reels})`;
 
-function sumTotal() {
-  console.log("The future is bright cos God's in it");
-  console.log(reels);
-}
+let prick = document.querySelectorAll(".bath12");
