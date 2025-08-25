@@ -48,16 +48,14 @@ let reels = cardBg.length;
 let pick = document.querySelector(".bath");
 pick.innerHTML = `All (${reels})`;
 
-// CODE REQUIRED TO SETUP ACTIVE COUNTER
+// CODE REQUIRED TO SETUP ACTIVE & INACTIVE COUNTER
 let activeIcon = document.querySelectorAll(".muyiwa"); // Returns nodelist for all muyiwa classes that represent the remove button
 let inActiveIcon = document.querySelectorAll(".bolu"); // Returns nodelist for all bolu classes that represent the remove button
+let prick = document.querySelectorAll(".bath1");
 
 let insta = cardBg.length - inActiveIcon.length;
-let prick = document.querySelectorAll(".bath12");
-prick.innerHTML = `Active (${insta})`;
-
-// CODE REQUIRE TO SETUP INACTIVE  COUNTER
-
 let snap = cardBg.length - activeIcon.length;
-let pink = document.querySelectorAll(".bath13");
-pink.innerHTML = `Inactive (${snap})`;
+
+prick[0].innerHTML = `Active (${insta})`;
+
+prick[1].innerHTML = `Inactive (${snap})`;
