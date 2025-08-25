@@ -1,4 +1,5 @@
 let mopo = document.querySelector(".nike");
+let cardBg = document.querySelectorAll(".fiber"); // Returns nodelist for all 12 fiber classes that represent the card
 
 mopo.addEventListener("click", () => {
   console.log("You are beautiful!!!!");
@@ -41,3 +42,10 @@ mopo.addEventListener("click", () => {
 
   LightTheme();
 });
+
+let reels = cardBg.length;
+
+function sumTotal() {
+  console.log("The future is bright cos God's in it");
+  console.log(reels);
+}
