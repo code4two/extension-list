@@ -1,14 +1,14 @@
 let mopo = document.querySelector(".nike");
 
 mopo.addEventListener("click", () => {
-  console.log("You are beautiful!!!!");
+  console.log("1. Parent Function Clicked!😬");
 
   let bodyBg = document.querySelector("body");
   let extensionBar = document.querySelector(".stone");
   let inactive = document.querySelectorAll(".bath1"); // Returns nodelist for all 2 bath1 classes that represent the active and inactive pages
 
   function LightTheme() {
-    console.log("I am trying to master JavaScript");
+    console.log("2. Child Function Clicked!!🤗");
 
     bodyBg.style.color = "#000"; // Changes the body tag text color to black
     bodyBg.style.backgroundColor = "#E3F2FD"; // Changes the body tag background color to lightblue
@@ -42,20 +42,36 @@ mopo.addEventListener("click", () => {
   LightTheme();
 });
 
-// CODE REQUIRED TO SETUP ALL COUNTER
-let cardBg = document.querySelectorAll(".fiber"); // Returns nodelist for all 12 fiber classes that represent the card
-let reels = cardBg.length;
-let pick = document.querySelector(".bath");
-pick.innerHTML = `All (${reels})`;
-
-// CODE REQUIRED TO SETUP ACTIVE & INACTIVE COUNTER
+// CODE REQUIRED TO SETUP ALL ACTIVE & INACTIVE COUNTER
 let activeIcon = document.querySelectorAll(".muyiwa"); // Returns nodelist for all muyiwa classes that represent the remove button
 let inActiveIcon = document.querySelectorAll(".bolu"); // Returns nodelist for all bolu classes that represent the remove button
-let prick = document.querySelectorAll(".bath1");
 
-let insta = cardBg.length - inActiveIcon.length;
-let snap = cardBg.length - activeIcon.length;
+let bothIcons = activeIcon + inActiveIcon;
 
-prick[0].innerHTML = `Active (${insta})`;
+let activeCount = activeIcon.length;
+let inActiveCount = inActiveIcon.length;
 
-prick[1].innerHTML = `Inactive (${snap})`;
+let totalCount = activeCount + inActiveCount;
+
+let allButton = document.querySelector(".bath");
+let inActiveButton = document.querySelectorAll(".bath1");
+
+allButton.innerHTML = `All (${totalCount})`;
+inActiveButton[0].innerHTML = `Active (${activeCount})`;
+inActiveButton[1].innerHTML = `Inactive (${inActiveCount})`;
+
+//USING FOR EACH TO DISPLAY RESPECTIVE CARDS INTO THEIR RESPECTIVE PAGES
+// bothIcons.forEach((element) => {
+//   element.style.display = "block";
+// });
+
+let totalCard = document.querySelectorAll(".fiber"); // Returns nodelist for all 12 fiber classes that represent the card
+let activeCard = Array.from(totalCard).filter((el) =>
+  el.querySelector(".muyiwa")
+);
+let inActiveCard = Array.from(totalCard).filter((el) =>
+  el.querySelector(".bolu")
+);
+
+// Array.from(variableName) turns a variable with nodelist into an array
+let newArray = Array.from(totalCard);
