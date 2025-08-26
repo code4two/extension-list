@@ -327,6 +327,10 @@ h1 {
   margin-bottom: 40px;
 }
 
+.cruise {
+  font-size: 30px;
+}
+
 .phiki {
   border-radius: 16px;
   background-color: rgb(36, 47, 64);
