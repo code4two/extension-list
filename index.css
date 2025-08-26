@@ -304,7 +304,6 @@ p {
   z-index: 40;
   position: fixed;
   top: 50%;
-  width: 100%;
   box-shadow: 0, 10px, 25px rgba(0, 0, 0, 0.3);
 }
 
@@ -439,5 +438,9 @@ p {
 
   .muyiwa {
     font-size: 34px;
+  }
+
+  .fighter {
+    width: 100%;
   }
 }
