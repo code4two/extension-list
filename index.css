@@ -421,6 +421,11 @@ h1 {
     padding-inline: 16px;
   }
 
+  .phiki,
+  .phiki2 {
+    font-size: 1.1rem;
+  }
+
   .muyiwa {
     font-size: 34px;
   }
