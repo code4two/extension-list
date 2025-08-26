@@ -139,3 +139,16 @@ let newArray = Array.from(totalCard);
 let allCards = document.querySelectorAll(".fiber");
 
 allCards[0];
+
+// TO ALERT USERS THAT ACTIVE AND INACTIVE ICON IS NOT RESPONSIVE YET
+
+let toggler = document.querySelectorAll(".faleye");
+
+toggler.forEach((button) => {
+  button.addEventListener("click", () => {
+    alert(" Oops😪 \n Under Construction 📚 \n Check back later!!🤗");
+  });
+});
+// for (let h = 0; h < toggler.length; h++) {
+//   toggler[h].alert("Oops😪");
+// }
