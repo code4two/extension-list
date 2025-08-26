@@ -65,20 +65,7 @@ allButton.innerHTML = `All (${totalCount})`;
 inActiveButton[0].innerHTML = `Active (${activeCount})`;
 inActiveButton[1].innerHTML = `Inactive (${inActiveCount})`;
 
-// HOW TO FILTER PARENT DIV OF TWO CHILDREN INTO SEPARATE VARIABLES
-let totalCard = document.querySelectorAll(".fiber"); // Returns nodelist for all 12 fiber classes that represent the card
-let activeCard = Array.from(totalCard).filter((el) =>
-  el.querySelector(".muyiwa")
-);
-let inActiveCard = Array.from(totalCard).filter((el) =>
-  el.querySelector(".bolu")
-);
-
-// Array.from(variableName) turns a variable with nodelist into an array
-let newArray = Array.from(totalCard);
-
 // SETTING REMOVE BUTTON FUNCTION
-
 let removeButton = document.querySelectorAll(".fikayo"); // Returns nodelist for all 12 fikayo classes that represent the remove button
 
 // SETTING UP REMOVE BUTTON FUNCTION
@@ -118,7 +105,37 @@ deleteButton.addEventListener("click", () => {
   backdrop.style.display = "none";
   modal.style.display = "none";
 
-  for (let w = 0; w < mainCard.length; w++) {
-    mainCard[w].style.display = "none";
-  }
+  mainCard[0].style.display = "none";
+  //   mainCard[1].style.display = "none";
+  //   mainCard[2].style.display = "none";
+  //   mainCard[3].style.display = "none";
+  //   mainCard[4].style.display = "none";
+  //   mainCard[5].style.display = "none";
+  //   mainCard[6].style.display = "none";
+  //   mainCard[7].style.display = "none";
+  //   mainCard[8].style.display = "none";
+  //   mainCard[9].style.display = "none";
+  //   mainCard[10].style.display = "none";
+  //   mainCard[11].style.display = "none";
+
+  //   for (let w = 0; w < mainCard.length; w++) {
+  //     // THIS DELETES ALL BUTTON INSTEAD OF THE SELECTED ONE
+  //     mainCard[w].style.display = "none";
+  //   }
 });
+
+// HOW TO FILTER PARENT DIV OF TWO CHILDREN INTO SEPARATE VARIABLES
+let totalCard = document.querySelectorAll(".fiber"); // Returns nodelist for all 12 fiber classes that represent the card
+let activeCard = Array.from(totalCard).filter((el) =>
+  el.querySelector(".muyiwa")
+);
+let inActiveCard = Array.from(totalCard).filter((el) =>
+  el.querySelector(".bolu")
+);
+
+// Array.from(variableName) turns a variable with nodelist into an array
+let newArray = Array.from(totalCard);
+
+let allCards = document.querySelectorAll(".fiber");
+
+allCards[0];
