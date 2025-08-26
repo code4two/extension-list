@@ -113,7 +113,12 @@ deleteButton.addEventListener("click", () => {
 
   let backdrop = document.querySelector(".backdrop");
   let modal = document.querySelector(".fighter");
+  let mainCard = document.querySelectorAll(".fiber"); // Returns nodelist for all 12 fiber classes that represent the card
 
   backdrop.style.display = "none";
   modal.style.display = "none";
+
+  for (let w = 0; w < mainCard.length; w++) {
+    mainCard[w].style.display = "none";
+  }
 });
