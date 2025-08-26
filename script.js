@@ -75,3 +75,5 @@ let newArray = Array.from(totalCard);
 // SETTING REMOVE BUTTON FUNCTION
 
 let removeButton = document.querySelectorAll(".fikayo"); // Returns nodelist for all 12 fikayo classes that represent the remove button
+
+let allRemoveButton = Array.from(removeButton);
