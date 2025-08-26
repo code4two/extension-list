@@ -300,7 +300,7 @@ p {
   display: none;
   border-radius: 15px;
   background-color: rgb(36, 47, 64);
-  padding: 16px;
+  padding: 17px;
   z-index: 40;
   position: fixed;
   top: 50%;
@@ -324,10 +324,7 @@ h1 {
 }
 
 .cruise {
-  margin-bottom: 40px;
-}
-
-.cruise {
+  margin-bottom: 44px;
   font-size: 30px;
 }
 
