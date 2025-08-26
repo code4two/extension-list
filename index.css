@@ -319,13 +319,13 @@ p {
 }
 
 .fighter,
-h1 {
+p {
   margin: 0;
 }
 
 .cruise {
-  margin-bottom: 44px;
-  font-size: 30px;
+  margin-bottom: 42px;
+  font-size: 1.3rem;
 }
 
 .phiki {
