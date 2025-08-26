@@ -8,7 +8,7 @@ mopo.addEventListener("click", () => {
   let inactive = document.querySelectorAll(".bath1"); // Returns nodelist for all 2 bath1 classes that represent the active and inactive pages
 
   function LightTheme() {
-    console.log("2. Child Function Clicked!!🤗");
+    console.log("2. LightTheme Function Clicked!!🤗");
 
     bodyBg.style.color = "#000"; // Changes the body tag text color to black
     bodyBg.style.backgroundColor = "#E3F2FD"; // Changes the body tag background color to lightblue
@@ -76,7 +76,7 @@ let newArray = Array.from(totalCard);
 
 let removeButton = document.querySelectorAll(".fikayo"); // Returns nodelist for all 12 fikayo classes that represent the remove button
 
-// SETTING REMOVE BUTTON FUNCTION
+// SETTING UP REMOVE BUTTON FUNCTION
 removeButton.forEach((button) => {
   button.addEventListener("click", () => {
     console.log("Remove Button Clicked");
@@ -86,14 +86,29 @@ removeButton.forEach((button) => {
 
     backdrop.style.display = "block";
     modal.style.display = "block";
-
-    //SETTING CANCEL BUTTON FUNCTION
-    let cancelButton = document.querySelector(".phiki");
-    cancelButton.addEventListener("click", () => {
-      console.log("Cancel Button Clicked!!");
-
-      backdrop.style.display = "none";
-      modal.style.display = "none";
-    });
   });
+});
+
+//SETTING UP CANCEL BUTTON FUNCTION
+let cancelButton = document.querySelector(".phiki");
+cancelButton.addEventListener("click", () => {
+  console.log("Cancel Button Clicked!!");
+
+  let backdrop = document.querySelector(".backdrop");
+  let modal = document.querySelector(".fighter");
+
+  backdrop.style.display = "none";
+  modal.style.display = "none";
+});
+
+//SETTING UP DELETE BUTTON FUNCTION
+let deleteButton = document.querySelector(".phiki2");
+deleteButton.addEventListener("click", () => {
+  console.log("Delete Button Clicked!!");
+
+  let backdrop = document.querySelector(".backdrop");
+  let modal = document.querySelector(".fighter");
+
+  backdrop.style.display = "none";
+  modal.style.display = "none";
 });
