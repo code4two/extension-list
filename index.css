@@ -329,6 +329,15 @@ h1 {
 
 .phiki {
   border-radius: 16px;
+  background-color: rgb(36, 47, 64);
+  border: 1px solid rgb(115, 125, 133);
+  padding-inline: 11px;
+  padding-block: 8px;
+  color: inherit;
+}
+
+.phiki2 {
+  border-radius: 16px;
   background-color: orangered;
   border: 0px solid rgb(115, 125, 133);
   padding-inline: 11px;
