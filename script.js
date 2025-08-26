@@ -76,4 +76,24 @@ let newArray = Array.from(totalCard);
 
 let removeButton = document.querySelectorAll(".fikayo"); // Returns nodelist for all 12 fikayo classes that represent the remove button
 
-let allRemoveButton = Array.from(removeButton);
+// SETTING REMOVE BUTTON FUNCTION
+removeButton.forEach((button) => {
+  button.addEventListener("click", () => {
+    console.log("Remove Button Clicked");
+
+    let backdrop = document.querySelector(".backdrop");
+    let modal = document.querySelector(".fighter");
+
+    backdrop.style.display = "block";
+    modal.style.display = "block";
+
+    //SETTING CANCEL BUTTON FUNCTION
+    let cancelButton = document.querySelector(".phiki");
+    cancelButton.addEventListener("click", () => {
+      console.log("Cancel Button Clicked!!");
+
+      backdrop.style.display = "none";
+      modal.style.display = "none";
+    });
+  });
+});
