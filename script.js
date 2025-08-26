@@ -149,6 +149,3 @@ toggler.forEach((button) => {
     alert(" Oops😪 \n Under Construction 📚 \n Check back later!!🤗");
   });
 });
-// for (let h = 0; h < toggler.length; h++) {
-//   toggler[h].alert("Oops😪");
-// }
