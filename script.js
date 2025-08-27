@@ -47,23 +47,23 @@ mopo.addEventListener("click", () => {
   LightTheme();
 });
 
-// CODE REQUIRED TO SETUP ALL ACTIVE & INACTIVE COUNTER
-let activeIcon = document.querySelectorAll(".muyiwa"); // Returns nodelist for all muyiwa classes that represent the remove button
-let inActiveIcon = document.querySelectorAll(".bolu"); // Returns nodelist for all bolu classes that represent the remove button
+// // CODE REQUIRED TO SETUP ALL ACTIVE & INACTIVE COUNTER
+// let activeIcon = document.querySelectorAll(".muyiwa"); // Returns nodelist for all muyiwa classes that represent the remove button
+// let inActiveIcon = document.querySelectorAll(".bolu"); // Returns nodelist for all bolu classes that represent the remove button
 
-let bothIcons = activeIcon + inActiveIcon;
+// let bothIcons = activeIcon + inActiveIcon;
 
-let activeCount = activeIcon.length;
-let inActiveCount = inActiveIcon.length;
+// let activeCount = activeIcon.length;
+// let inActiveCount = inActiveIcon.length;
 
-let totalCount = activeCount + inActiveCount;
+// let totalCount = activeCount + inActiveCount;
 
-let allButton = document.querySelector(".bath");
-let inActiveButton = document.querySelectorAll(".bath1");
+// let allButton = document.querySelector(".bath");
+// let inActiveButton = document.querySelectorAll(".bath1");
 
-allButton.innerHTML = `All (${totalCount})`;
-inActiveButton[0].innerHTML = `Active (${activeCount})`;
-inActiveButton[1].innerHTML = `Inactive (${inActiveCount})`;
+// allButton.innerHTML = `All (${totalCount})`;
+// inActiveButton[0].innerHTML = `Active (${activeCount})`;
+// inActiveButton[1].innerHTML = `Inactive (${inActiveCount})`;
 
 // SETTING REMOVE BUTTON FUNCTION
 let removeButton = document.querySelectorAll(".fikayo"); // Returns nodelist for all 12 fikayo classes that represent the remove button
