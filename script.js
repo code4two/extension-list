@@ -1,4 +1,5 @@
 let mopo = document.querySelector(".nike");
+let mopol = document.querySelector(".nike5");
 
 mopo.addEventListener("click", () => {
   console.log("1. Parent Function Clicked!😬");
@@ -16,6 +17,7 @@ mopo.addEventListener("click", () => {
     bodyBg.style.backgroundColor = "#E3F2FD"; // Changes the body tag background color to lightblue
     extensionBar.style.backgroundColor = "#fff"; // Changes the extension bar bg color to white
     mopo.style.backgroundColor = "#D3D3D3"; // Changes the themebar bg color to white
+    mopol.style.backgroundColor = "#D3D3D3";
     inactive[0].style.backgroundColor = "#fff"; // Changes the button bg colo to white
     inactive[1].style.backgroundColor = "#fff"; // Changes the button bg colo to white
     modalCard.style.color = "#000"; // Changes the modalCard tag text color to black
@@ -45,6 +47,54 @@ mopo.addEventListener("click", () => {
   }
 
   LightTheme();
+});
+
+mopol.addEventListener("click", () => {
+  console.log("3. Dark theme Parent Function just got clicked!");
+
+  let bodyBg = document.querySelector("body");
+  let extensionBar = document.querySelector(".stone");
+  let inactive = document.querySelectorAll(".bath1"); // Returns nodelist for all 2 bath1 classes that represent the active and inactive pages
+  let modalCard = document.querySelector(".fighter"); // Modal card
+  let cancelButton = document.querySelector(".phiki"); // Returns cancel button
+
+  function DarkTheme() {
+    console.log("4. DarkTheme Child Function just got clicked!!🤗");
+
+    bodyBg.style.color = "white"; // Changes the body tag text color to black
+    bodyBg.style.backgroundColor = "rgb(11, 14, 56)"; // Changes the body tag background color to lightblue
+    extensionBar.style.backgroundColor = "rgb(36, 47, 64)"; // Changes the extension bar bg color to white
+    mopo.style.backgroundColor = "rgb(64, 76, 88)"; // Changes the themebar bg color to white
+    mopol.style.backgroundColor = "rgb(64, 76, 88)";
+    inactive[0].style.backgroundColor = "rgb(64, 76, 88)"; // Changes the button bg colo to white
+    inactive[1].style.backgroundColor = "rgb(64, 76, 88)"; // Changes the button bg colo to white
+    modalCard.style.color = "#fff"; // Changes the modalCard tag text color to black
+    modalCard.style.backgroundColor = "rgb(36, 47, 64)"; // Changes the modalCard background color to white
+    cancelButton.style.backgroundColor = "rgb(36, 47, 64)"; // Changes the cancelButton background color to white
+
+    //USING FOR LOOP
+    let cardBg = document.querySelectorAll(".fiber"); // Returns nodelist for all 12 fiber classes that represent the card
+
+    //USING FOR LOOP TO CONVERT ALL CARD BG TO WHITE
+    for (let i = 0; i < cardBg.length; i++) {
+      cardBg[i].style.backgroundColor = "rgb(36, 47, 64)"; // Changes all card background color in the nodelist to white
+    }
+
+    //USING FOR LOOP TO  CONVERT ALL CARD BORDER TO NONE
+    for (let k = 0; k < cardBg.length; k++) {
+      cardBg[k].style.border = "1px solid rgb(115, 125, 133)"; // Changes all card background color in the nodelist to white
+    }
+
+    //USING FOR EACH
+    let removeButton = document.querySelectorAll(".fikayo"); // Returns nodelist for all 12 fikayo classes that represent the remove button
+
+    //USING FOR EACH TO CONVERT ALL REMOVE BUTTON BG TO WHITE
+    removeButton.forEach((element) => {
+      element.style.backgroundColor = "rgb(36, 47, 64)";
+    });
+  }
+
+  DarkTheme();
 });
 
 // // CODE REQUIRED TO SETUP ALL ACTIVE & INACTIVE COUNTER
